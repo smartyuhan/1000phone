@@ -1,0 +1,180 @@
+@import  'public';
+body,html{
+	width: 100%;
+	height: 100%;
+}
+// header部分
+.header_top {
+	height:110px ;
+	a{
+		display: block;
+		height: 110px;
+		cursor: pointer;
+		background: url(../image/dpd-2019.jpg) center;
+	}
+}
+.header{
+	height: 60px;
+	background-color: #232323;
+	.w{
+		height: 60px;
+		position: relative;
+		.logo a{
+				display: block;
+				background:url(../image/qf_logo.jpg) no-repeat;
+				width: 160px;
+				height: 60px;
+				text-indent: -9999px;
+			}
+		.nav{
+			width: 850px;
+			height: 60px;
+			position: absolute;
+			top: 0;
+			right: 0;
+			li{
+				float: left;
+				text-align: center;
+				color: white;
+				padding:20px 15px;
+			}
+			li:hover{
+				background-color: #f15a23;
+				transition: all 0.5s linear 0s;
+			}
+			.mark{
+				width: 850px;
+				height: 35px;
+				position: absolute;
+				top: 60px;
+				right: 0;
+				background-color: #f15a23;
+				line-height: 35px;
+				z-index: 100;
+				a{
+					color: white;
+					padding-left: 5px;
+				}
+			}
+		}
+	}
+}
+
+//banner轮播图部分
+.banner{
+	width: 100%;
+	height: 440px;
+	overflow: hidden;
+	position: relative;
+	.imgs img{
+		width: 100%;
+		height: 440px;
+	}
+	.banner_bottom{
+		width: 100%;
+		position: absolute;
+		bottom: 0;
+		height: 80px;
+		background-color: black;
+		opacity: 0.7;
+		ul{
+			width: 650px;
+			padding-top: 5px;
+			margin: 0 auto;
+			display: flex;
+			justify-content: space-around;
+			li img{
+				width: 150px;
+				height: 65px;
+				display: block;
+				z-index: 5;
+			}
+		}
+		
+	}
+	
+}
+
+
+//section部分
+.section{
+	height: 350px;
+	background-color: #f5f5f5;
+	padding: 40px 0;
+	.list{
+		height: 350px;
+		width: 1200px;
+		display: flex;
+		justify-content: space-between;
+		li{
+			width: 290px;
+			padding: 20px;
+			text-align: center;
+			background-color: #f5f5f5;
+			position: relative;
+			border-right: 1px solid #dde6f0;
+			h3{
+				font-size: 25px;
+				font-weight: 500;
+				margin-top: 150px;
+				padding-bottom: 10px;
+			}
+			.p1{ padding-bottom: 10px;}
+			.p2{ font-size: 14px; color: #cec8cd;}
+			//精灵图
+			.spir{
+				width:130px ;
+				height: 100px;
+				background-color: yellow;
+				position: absolute;
+				left: 90px;
+				top: 50px;
+			}
+			.spir1{
+				background: url(../image/qf_list_bg.png) no-repeat 32px 0px;
+			}
+			.spir2{
+				background: url(../image/qf_list_bg.png) no-repeat -80px 0px;
+			}
+			.spir3{
+				background: url(../image/qf_list_bg.png) no-repeat -284px 0px;
+			}
+			.spir4{
+				background: url(../image/qf_list_bg.png) no-repeat -405px 0px;
+			}
+		}
+	}
+	.li_mark{
+		width: 290px;
+		height: 350px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		background-color: gray;
+		opacity: .5;
+	}
+
+}
+
+
+//news 部分
+.news{
+	height:350px;
+	background-color: yellow;
+}
+
+//footer部分
+.footer{
+	height: 300px;
+}
+.footer_top{
+	height: 250px;
+	background-color: #222222;
+}
+.footer_bottom{
+	height: 50px;
+	background-color: #101010;
+}
+
+
+
